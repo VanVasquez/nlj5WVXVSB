@@ -1,0 +1,20 @@
+<div id="container">
+    <h1> Library App </h1>
+
+    <div id="content">
+        <form id="book_form">
+            <input type="text" name="title" id="title" class="field" placeholder="Title"> <br>
+            <input type="text" name="author" id="author" class="field" placeholder="Author"> <br>
+            <input type="text" name="ISBN" id="isbn" class="field" placeholder="ISBN"> <br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+
+        <p id="error"></p> 
+       
+        <div id="cards"> 
+            {{#each books}}
+                {{> card}}
+            {{/each}}
+        </div>
+    </div>
+</div>

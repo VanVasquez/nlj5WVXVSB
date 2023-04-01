@@ -1,0 +1,25 @@
+{
+  "name": "library-webapp-mc3",
+  "version": "1.0.0",
+  "description": "CCAPDEV Mini Challenge 3 for T2 AY 2223 ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "devStart": "nodemon index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "mongoose": "^7.0.3",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
